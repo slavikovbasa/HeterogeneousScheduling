@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/SCALA/Lab1/dru-de-w4-lab1" value="PREVIEW" />
+        <entry key="D:/SCALA/Lab2/dru-de-w4-lab2" value="PREVIEW" />
+        <entry key="D:/SCALA/dru-de-w4-ws3" value="PREVIEW" />
+        <entry key="D:/SCALA/start" value="PREVIEW" />
+        <entry key="D:/_DOWNLOADS/objsets" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="C:/Program Files/Java/jdk1.8.0_171" />
+  </component>
+</project>
