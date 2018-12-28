@@ -81,7 +81,7 @@ public class Main {
 
         HEFTScheduler heftScheduler = new HEFTScheduler(procs, tasks, procTree);
         int makespan = heftScheduler.schedule();
-        printSchedule(procs, makespan);
+        printSchedule(procs, makespan, heftScheduler);
 
         tasks = new Task[taskNum];
         for (int i = 0; i < taskNum; i++)
@@ -103,20 +103,36 @@ public class Main {
         }
         PEFTScheduler peftScheduler = new PEFTScheduler(procs, tasks, procTree);
         makespan = peftScheduler.schedule();
-        printSchedule(procs, makespan);
+        printSchedule(procs, makespan, peftScheduler);
     }
 
-    private static void printSchedule(Processor[] procs, int makespan) {
+    private static void printSchedule(Processor[] procs, int makespan, HEFTScheduler scheduler) {
         int[][] procsSymbols = new int[procs.length][makespan];
+        String[] transitions = new String[makespan + 1];
+        for (int i = 0; i <= makespan; i++)
+            transitions[i] = "";
         for (int i = 0; i < procs.length; i++) {
             Processor proc = procs[i];
             ArrayList<Task> tasks = proc.assignedTasks;
             for (Task task : tasks) {
                 for (int j = task.startTime; j < task.finishTime; j++)
                     procsSymbols[i][j] = task.id + 1;
+                StringBuilder str = new StringBuilder();
+                for (Task t: task.getSuccessors()){
+                    str.append(task.id + 1)
+                            .append("(")
+                            .append(task.processor.id + 1)
+                            .append(") -[")
+                            .append(scheduler.getConnCost(task, t, task.processor, t.processor))
+                            .append("]-> ")
+                            .append(t.id + 1)
+                            .append("(")
+                            .append(t.processor.id + 1)
+                            .append("), ");
+                }
+                transitions[task.finishTime] += str.toString();
             }
         }
-        String[]
 
         System.out.printf("%3s | ", "T");
         for (int j = 0; j < procs.length; j++) {
@@ -132,6 +148,7 @@ public class Main {
                     str = procsSymbols[j][i] + "";
                 System.out.printf("%2s ", str);
             }
+            if (transitions[i] != null) System.out.print(transitions[i]);
             System.out.println();
         }
         System.out.println();

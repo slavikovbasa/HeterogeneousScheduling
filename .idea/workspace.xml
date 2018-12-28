@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb6b186b-17be-4221-8da7-858cb419f8d4" name="Default" comment="" />
+    <list default="true" id="eb6b186b-17be-4221-8da7-858cb419f8d4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Planning/HEFTScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Planning/HEFTScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Planning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Planning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+            <state relative-caret-position="317">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#Main#0" />
+                <element signature="method#printSchedule#0;class#Main#0" />
                 <element signature="method#normalize#0;class#Main#0" />
               </folding>
             </state>
@@ -29,8 +34,8 @@
       <file leaf-file-name="HEFTScheduler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/HEFTScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#HEFTScheduler#0;class#HEFTScheduler#0" />
@@ -48,8 +53,8 @@
       <file leaf-file-name="PEFTScheduler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/PEFTScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="34">
+              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -63,8 +68,8 @@
       <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
                 <element signature="method#TaskList#0;class#TaskList#0" />
                 <element signature="method#get#0;class#TaskList#0" />
@@ -77,8 +82,8 @@
       <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="238">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Processor#0;class#Processor#0" />
@@ -92,8 +97,8 @@
       <file leaf-file-name="IntMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/IntMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            <state relative-caret-position="131">
+              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
                 <element signature="method#IntMatrix#0;class#IntMatrix#0" />
                 <element signature="method#getPath#0;class#IntMatrix#0" />
@@ -104,15 +109,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="108">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Task#0;class#Task#0" />
                 <element signature="method#addSuccessor#0;class#Task#0" />
+                <element signature="method#getConnCost#0;class#Task#0" />
                 <element signature="method#isReady#0;class#Task#0" />
               </folding>
             </state>
@@ -128,6 +134,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -161,12 +170,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="9" />
     <option name="y" value="41" />
     <option name="width" value="1044" />
     <option name="height" value="643" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -355,7 +365,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -364,10 +374,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8234323" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35973597" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.031353135" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.031353135" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.84653467" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18303572" />
@@ -417,7 +427,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -427,7 +437,7 @@
           <caret column="27" selection-start-column="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
+            <element signature="method#printSchedule#0;class#Main#0" />
             <element signature="method#normalize#0;class#Main#0" />
           </folding>
         </state>
@@ -496,6 +506,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Task#0;class#Task#0" />
             <element signature="method#addSuccessor#0;class#Task#0" />
+            <element signature="method#getConnCost#0;class#Task#0" />
             <element signature="method#isReady#0;class#Task#0" />
           </folding>
         </state>
@@ -520,7 +531,7 @@
           <caret line="30" column="109" lean-forward="true" selection-start-line="30" selection-start-column="109" selection-end-line="30" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
+            <element signature="method#printSchedule#0;class#Main#0" />
             <element signature="method#normalize#0;class#Main#0" />
           </folding>
         </state>
@@ -547,6 +558,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Task#0;class#Task#0" />
             <element signature="method#addSuccessor#0;class#Task#0" />
+            <element signature="method#getConnCost#0;class#Task#0" />
             <element signature="method#isReady#0;class#Task#0" />
           </folding>
         </state>
@@ -595,61 +607,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TaskList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="method#TaskList#0;class#TaskList#0" />
-            <element signature="method#get#0;class#TaskList#0" />
-            <element signature="method#toString#0;class#TaskList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="317">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Processor#0;class#Processor#0" />
-            <element signature="method#getAvailableTime#0;class#Processor#0" />
-            <element signature="method#assignTask#0;class#Processor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/IntMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="method#IntMatrix#0;class#IntMatrix#0" />
-            <element signature="method#getPath#0;class#IntMatrix#0" />
-            <element signature="method#setNext#0;class#IntMatrix#0" />
-            <element signature="method#getMeanValue#0;class#IntMatrix#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Task#0;class#Task#0" />
-            <element signature="method#addSuccessor#0;class#Task#0" />
-            <element signature="method#isReady#0;class#Task#0" />
+            <element signature="method#printSchedule#0;class#Main#0" />
+            <element signature="method#normalize#0;class#Main#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/HEFTScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#HEFTScheduler#0;class#HEFTScheduler#0" />
@@ -665,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PEFTScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
@@ -676,14 +649,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="method#TaskList#0;class#TaskList#0" />
+            <element signature="method#get#0;class#TaskList#0" />
+            <element signature="method#toString#0;class#TaskList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#normalize#0;class#Main#0" />
+            <element signature="method#Processor#0;class#Processor#0" />
+            <element signature="method#getAvailableTime#0;class#Processor#0" />
+            <element signature="method#assignTask#0;class#Processor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/IntMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="method#IntMatrix#0;class#IntMatrix#0" />
+            <element signature="method#getPath#0;class#IntMatrix#0" />
+            <element signature="method#setNext#0;class#IntMatrix#0" />
+            <element signature="method#getMeanValue#0;class#IntMatrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Task#0;class#Task#0" />
+            <element signature="method#addSuccessor#0;class#Task#0" />
+            <element signature="method#getConnCost#0;class#Task#0" />
+            <element signature="method#isReady#0;class#Task#0" />
           </folding>
         </state>
       </provider>
