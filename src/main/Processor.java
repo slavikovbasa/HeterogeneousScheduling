@@ -1,20 +1,14 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 
 class Processor {
     ArrayList<Task> assignedTasks;
     int id;
+    private int prod;
 
-    private HashMap<Task, Integer> taskCosts;
-
-    Processor(int id, HashMap<Task, Integer> taskCosts) {
+    Processor(int id, int prod) {
         this.id = id;
-        this.taskCosts = taskCosts;
+        this.prod = prod;
         assignedTasks = new ArrayList<>();
-    }
-
-    int getTaskCost(Task t) {
-        return t.getCost() * taskCosts.get(t);
     }
 
     int getAvailableTime() {
@@ -34,4 +28,7 @@ class Processor {
         return true;
     }
 
+    public int getProd() {
+        return prod;
+    }
 }

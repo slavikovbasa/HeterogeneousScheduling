@@ -2,8 +2,8 @@ import java.util.Set;
 
 public class PEFTScheduler extends HEFTScheduler {
 
-    PEFTScheduler(Processor[] procs, Task[] tasks, IntMatrix procTree) {
-        super(procs, tasks, procTree);
+    PEFTScheduler(Processor[] procs, Task[] tasks, ConnMatrix conns) {
+        super(procs, tasks, conns);
     }
 
     @Override
@@ -23,7 +23,9 @@ public class PEFTScheduler extends HEFTScheduler {
         for (Task t : succ) {
             int minVal = Integer.MAX_VALUE;
             for (Processor p : procs) {
-                int newVal = getOCT(t, p) + p.getTaskCost(t) + getConnCost(task, t, proc, p);
+                int newVal = getOCT(t, p) +
+                        (task.getCost() + p.getProd() - 1) / p.getProd() +
+                        conns.getConnectionCost(proc.id, p.id, task, t);
                 if (newVal < minVal)
                     minVal = newVal;
             }

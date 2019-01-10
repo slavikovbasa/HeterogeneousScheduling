@@ -34,7 +34,7 @@ class TaskList {
     public String toString() {
         StringBuilder str = new StringBuilder();
         for (Task task : list) {
-            str.append(task.id + 1).append(" ").append(task.rank).append("\n");
+            str.append(String.format("%2d: %-4d\n", task.id + 1, task.rank));
         }
         return str.toString();
     }
